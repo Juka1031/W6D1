@@ -31,7 +31,39 @@ img {
 }
 
 li {
-  
+  display: inline-block
 }
 
+a {
+  display: inline-block
+}
 
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+nav {
+  display: inline-block
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  width: 700px;
+
+}
+
+aside {
+  width: 180px;
+}
+
+aside, section {
+  clear: both;
+}
